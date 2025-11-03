@@ -1,0 +1,23 @@
+# Terraform generated directories and files
+.terraform/
+.terraform.lock.hcl # Generally recommended to commit this, but if you manage provider versions externally, you might ignore it.
+*.tfstate
+*.tfstate.*.backup
+*.tfplan
+crash.log
+override.tf
+override_*.tf
+*-override.tf
+
+# Terraform variable files (may contain sensitive data)
+*.tfvars
+*.tfvars.json
+
+# Local configuration files
+.terraformrc
+terraform.rc
+
+# OS/Editor specific files
+.DS_Store
+.vscode/
+.idea/
